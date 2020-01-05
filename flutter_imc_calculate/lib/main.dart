@@ -22,6 +22,7 @@ class _State extends State<Home> {
       weightController.text = "";
       heightController.text = "";
       _infoText = "Informe seus dados!";
+      _formKey = GlobalKey<FormState>();
     });
   }
 
